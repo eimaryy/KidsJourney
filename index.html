@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/baa307742c.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="assets/foguete.png"/>
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>KidsJourney</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container-nav">
+                <input type="checkbox" id="menu" class="container-btn">
+                <label for="menu" class="container-label">
+                    <div class="sandwich-menu"><i class="fa-solid fa-bars"></i></div>
+               </label>
+               <ul class="menu-list"> 
+                    <li class="list-tittle">Categorias</li>
+                    <li class="item">Livros</li>
+                    <li class="item">Filmes</li>
+                    <li class="item">Séries</li>
+                    <li class="item">Desenhos</li>
+                    <li class="item">Jogos</li>
+                </ul>
+            </div>
+            <div class="container-tittle-logo">
+                 <span class="logo"><i class="fa-solid fa-rocket"></i></span>
+                 <h1 class="tittle"><span>Kids</span>Journey</h1>
+           </div> 
+
+            <ul class="options">
+                <input type="checkbox" id="options-menu" class="option-btn">
+                <label for="options-menu" class="options-label">
+                    <li class="options-itens">Categorias</li>
+                </label>
+                <ul class="menu-list"> 
+                    <li class="item">Livros</li>
+                    <li class="item">Filmes</li>
+                    <li class="item">Séries</li>
+                    <li class="item">Desenhos</li>
+                    <li class="item">Jogos</li>
+                </ul>
+
+                <li class="options-itens"><a href="#" class="item-link">Favoritos</a></li>
+                <li class="options-itens"><a href="#" class="item-link">Minha estante</a></li>
+            </ul>
+
+            <ul class="icons">
+             <li class="fav"><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+             <li  class="shopping"><a href="#"><i class="fa-solid fa-cart-shopping"></i><span>Meu carrinho</span></a></li>   
+             <li  class="user"><a href="#"><i class="fa-solid fa-user"></i><span>Minha conta</span></a></li>   
+            </ul>
+       </nav>
+        
+    </header>
+    <section class="banner">
+        <h2 class="banner-tittle">Ja sabe por onde começar?</h2>
+        <p class="banner-text"> Encontre em nossa estante o que sua criança favorita precisa!</p>
+        <input type="search" name="banner-search" class="banner-search" placeholder= "Qual será a proxima aventura de seu pequeno?" >
+    </section>
+    <section class="carrosel-card">
+        <h2 class="carrosel-tittle">Top filmes para crianças de 7 a 12 anos</h2>
+        <!-- Slider main container -->
+        <div class="container-swiper">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/wall-e.jpg" alt="Wall-e"></div>
+                <div class="swiper-slide"><img src="assets/toystory.jpg" alt="Toy Story"></div>
+                <div class="swiper-slide"><img src="assets/encanto.jpg" alt="Encanto"></div>
+                <div class="swiper-slide"><img src="assets/detona ralph.jpg" alt="Detona Ralph"></div>
+                <div class="swiper-slide"><img src="assets/up.jpg" alt="UP - Altas Aventuras"></div>
+                <div class="swiper-slide"><img src="assets/moana.jpg" alt="Moana"></div>
+                <div class="swiper-slide"><img src="assets/frozen.jpg" alt="Frozen"></div>
+                <div class="swiper-slide"><img src="assets/monstrosSA.jpg" alt="Monstros SA"></div>
+                <div class="swiper-slide"><img src="assets/vidaDeInseto.jpg" alt="Vida de Inseto"></div>
+                <div class="swiper-slide"><img src="assets/procurandoNemo.jpg" alt="Procurando o Nemo"></div>
+            </div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+            </div>
+
+            <div class="card">
+                <div class="card-description">
+                    <div class="description">
+                        <h3 class="description-tittle">Talvez você também se interesse por...</h3>
+                        <div class="container-text-card">
+                            <h2 class="category">A Era Do Gelo</h2>
+                            <p class="description-text">Em um mundo congelado, Manfred e Sid resgatam um bebê humano órfão e partem em uma jornada repleta de desafios para devolvê-lo à sua tribo.</p>
+                        </div>    
+                    </div>
+                    <img class="card-img" src="assets/aEraDoGelo.jpg" alt="A Era Do Gelo">
+                    
+                </div>
+                <div class="card-btn">
+                    <ul class="buttons">
+                        <input type="checkbox" id="loved" class="btn-item-loved">
+                        <label for="loved" class="heart">
+                            <li class="loved"><i class="fa-regular fa-heart"></i></li>
+                            <li class="noloved"><i class="fa-solid fa-heart"></i></li>
+                        </label>
+                        <li class="btn-item"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+                <a href="#" class="btn-ancora">Saiba mais</a>
+                </div>
+          </div>
+            </section>
+
+            <section class="carrosel-card">
+                <h2 class="carrosel-tittle">Desenhos recomendados para crianças de 1 a 6 anos</h2>
+                <div class="container-swiper">
+                    <div class="swiper">
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="assets/showdaluna.jpg" alt="Show da Luna"></div>
+                        <div class="swiper-slide"><img src="assets/doutorabrinquedos.jpg" alt="Doutora Brinquedos"></div>
+                        <div class="swiper-slide"><img src="assets/cocomelon.jpg" alt="Cocomelon"></div>
+                        <div class="swiper-slide"><img src="assets/peixonauta.webp" alt="Peixonauta"></div>
+                        <div class="swiper-slide"><img src="assets/patrulhacanina.webp" alt="Patrulha Canina"></div>
+                        <div class="swiper-slide"><img src="assets/capamickey.webp" alt="A casa do mickey mouse"></div>
+                        <div class="swiper-slide"><img src="assets/cleo&coquin.jpg" alt="Cleo & Coquin"></div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    
+                    </div>
+        
+                    <div class="card">
+                        <div class="card-description">
+                            <div class="description">
+                                <h3 class="description-tittle">Você sabia?</h3>
+                                <div class="container-text-card">
+                                    <h2 class="category">Os Simpsons <span>NÃO</span> é recomendado para crianças</h2>
+                                    <p class="description-text">Nem toda a animação é feita para crianças. Existem diversos desenhos animados feitos para adultos! então pais, fiquem atentos com desenhos como: Os Simpsons.</p>
+                                </div>    
+                            </div>
+                            <img class="card-img" src="assets/OsSimpsons.jpg" alt="Life Is Strange game">
+                            
+                        </div>
+                        <div class="card-btn">
+                        <a href="#" class="btn-ancora">Saiba mais</a>
+                        </div>
+                  </div>
+                    </section>
+
+            <section class="carrosel-card">
+                <h2 class="carrosel-tittle">Livros em alta</h2>
+            
+                <div class="container-swiper">
+                    <div class="swiper">
+                    
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-wrapper">
+
+                        <div class="swiper-slide"><img src="assets/nino.jpg" alt="Nino: O dinossauro"></div>
+                        <div class="swiper-slide"><img src="assets/coelho.jpg" alt="As Grandes Questões do Coelho Pensador"></div>
+                        <div class="swiper-slide"><img src="assets/avoltaaomundo.jpg" alt="A volta ao mundo em 80 dias"></div>
+                        <div class="swiper-slide"><img src="assets/semana.jpg" alt="Que Semana!"></div>
+                        <div class="swiper-slide"><img src="assets/marcelo.jpg" alt="Marcelo, marmelo, martelo"></div>
+                        <div class="swiper-slide"><img src="assets/oPequenoPrincipe.jpg" alt="O Pequeno Principe"></div>
+                        <div class="swiper-slide"><img src="assets/divertidamente.jpg" alt="Divertida-Mente"></div>
+                        <div class="swiper-slide"><img src="assets/mundo.jpg" alt="Querido mundo, como vai você?"></div>
+                        <div class="swiper-slide"><img src="assets/planetas.jpg" alt="A Reunião dos Planetas"></div>
+                        <div class="swiper-slide"><img src="assets/banana.jpg" alt="Diario de um Banana"></div>
+                        </div>
+                    
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    
+                    </div>
+            
+                    <div class="card">
+                        <div class="card-description">
+                            <div class="description">
+                                <h3 class="description-tittle">Talvez você também se interesse por...</h3>
+                               <div class="container-text-card">
+                                    <h2 class="category">A colcha de retalhos</h2>
+                                    <p class="description-text">Durante a criação de uma colcha de retalhos com sua avó, Felipe descobre o significado da saudade ao compartilhar lembranças e histórias especiais.</p>
+                               </div>
+                            </div>
+                            <img class="card-img" src="assets/retalhos.jpg" alt="A colcha de retalhos">
+                            
+                        </div>
+                        <div class="card-btn">
+                            <ul class="buttons">
+                            <input type="checkbox" id="loved2" class="btn-item-loved2">
+                                <label for="loved2" class="heart">
+                                    <li class="loved2"><i class="fa-regular fa-heart"></i></li>
+                                    <li class="noloved2"><i class="fa-solid fa-heart"></i></li>
+                                </label>
+                                <li class="btn-item"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        </ul>
+                        <a href="#" class="btn-ancora">Saiba mais</a>
+                        </div>
+                </div>
+            </section>
+            
+            <section class="topics">
+                <h2 class="topics-tittle">Tópicos visitados recentemente</h2>
+                <ul class="topics-menu">
+                    <li class="menu-item">Jogos educativos</li>
+                    <li class="menu-item">Leitura</li>
+                    <li class="menu-item">Desenvolvendo raciocinio logico</li>
+                    <li class="menu-item">Dicas</li>
+                    <li class="menu-item">Entendendo emoções</li>
+                </ul>
+                 
+            </section>
+            <section class="contact">
+                <h2 class="contact-tittle">Fique por dentro das novidades!</h2>
+                <p class="contact-text">Atualizações de novos livros, filmes, séries, desenhos, promoções, dicas e muito mais.</p>
+                <input type="email" name="contact-email" placeholder="Cadastre seu email:" class="contact-email">
+            </section>
+            <footer>
+                <hr />
+                <h2 class="footer-tittle">eimaryy</h2>
+    
+            </footer>
+
+                
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            spaceBetween: 5,
+            slidesPerView: 3,
+            setWrapperSize:true,
+   
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+         },
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        });
+        
+    </script>
+
+   
+
+</body>
+</html>

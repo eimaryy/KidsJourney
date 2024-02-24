@@ -1,0 +1,13 @@
+@import "variables";
+@import "default";
+
+footer{
+    background-color: $cor-branco;
+      
+    .footer-tittle{
+        padding: 5rem;
+        @include font(1.5rem, 500);
+        color: $letra-cor;
+        
+    }
+}

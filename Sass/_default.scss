@@ -1,0 +1,39 @@
+@import "variables";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    overflow-x: hidden;
+}
+
+:root{
+    font: {
+        size: 62.5%;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+@mixin center($direction, $content){
+    display: flex;
+    justify-content: $content;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin font($tamanho, $type){
+    font: {
+     family: $--fonte-principal;  
+     size: $tamanho; 
+     weight:$type;
+    }
+}
+
+@mixin list-base{
+    padding: 1rem;
+    background-color: $cor-branco;
+}

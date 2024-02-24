@@ -1,0 +1,415 @@
+@import "default";
+@import "variables";
+
+.carrosel-card{
+    
+    .carrosel-tittle{
+        color:$--cor-LetraDestaque;
+        background-color: $--cor-branco;
+        text-align: center;
+        text-transform: uppercase;
+        @include font(1.2rem, 700);
+        padding: 1rem 0 0.5rem 0;
+    }
+
+    .container-swiper{
+    
+        .swiper{
+            margin: 1rem;
+            
+            .swiper-slide img{
+                display: block;
+                width: 100%;
+                height: 100%;
+                border-radius: 2%;
+                object-fit: cover;
+                }
+        
+                .swiper-button-prev, .swiper-button-next{
+                    display: none;
+        
+                }
+        
+                .swiper-pagination{
+                    position: initial;
+                    margin: 1rem 0;
+                }
+            }
+            
+            .card{
+                background: $--cor-branco;
+                box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 10px;
+                margin:20px;
+                padding: 10px;
+            
+                .card-description{
+                    @include center(row, space-between);
+
+            
+                    .description{
+                        @include center(column, normal);
+                        align-items: normal;
+                        padding: 0.5rem;
+                       
+                        
+                        
+                        .description-tittle{
+                            @include font(1rem, 700);
+                            text-align: start;
+                            margin-bottom: 1.2rem;
+                            color: $--cor-LetraDestaque;
+                        }
+                        
+                        .container-text-card{
+                            @include center(column,center);
+                       
+                            .category{
+                                @include font(1.2rem, 700);
+                                text-align: center;
+                                color: $--corblue;
+                                span{
+                                    color: $--cor-LetraDestaque;
+                                }
+                            }
+                            
+                            .description-text{
+                                @include font(1rem, 500);
+                                padding: 1rem 0 1rem 0;
+
+                            }
+                        }
+                    }
+                    
+                    
+                    .card-img{
+                        margin: 0.2rem;
+                        width: 50rem;
+                        height: auto;
+
+                    }
+            
+                }
+                .card-btn{
+                    @include center(row, space-between);
+
+                    .buttons{
+                        @include center(row, space-between);
+
+                        #loved{
+                            display: none;
+                        }
+
+                        #loved2{
+                            display: none;
+                        }
+                        #buyit2{
+                            display: block;
+                        }
+
+                        .btn-item-loved:checked+ .heart .loved{
+                            display: none;
+                            
+                        }
+                        .btn-item-loved:checked+ .heart .noloved{
+                            display: flex;
+                        
+                        }
+                        .btn-item-loved2:checked+ .heart .loved2{
+                            display: none;
+                        
+                        }
+                        .btn-item-loved2:checked+ .heart .noloved2{
+                            display: flex;
+                     
+                        }
+                       
+
+                        .loved{
+                            display: block;
+                            i{
+                                color: $--corcinza;
+                             }
+                        }
+                        
+                        .noloved{
+                          display: none;
+                          i{
+                            color: $--corvermelho;
+                             }
+                        }
+
+                         .loved2{
+                         display: block;
+                         i{
+                            color: $--corcinza;
+                         }
+                        }
+                        
+                        .noloved2{
+                          display: none;
+                          i{
+                            color: $--corvermelho;
+                         }
+                        }
+
+
+                        .heart{
+                            cursor: pointer;
+                        }
+                    
+                    
+                        .btn-item{
+                            display: inline;
+                            cursor: pointer;
+                            i{
+                                font-size: 2rem;
+                                color: $--corcinza;
+                            }
+                        }
+                        
+                    }
+
+                    .btn-ancora{
+                        @include font(1.2rem, 500);
+                        @include center(row, center);
+                        background-color: $--cor-LetraDestaque;
+                        padding: 0.8rem 1rem;
+                        margin: 1rem 0 0 0;
+                        color: $--cor-branco;
+                    }
+                }
+            } 
+        }
+}
+
+
+@media screen and (min-width:500px) {
+    .carrosel-card{
+        @include center (column, center);
+
+        .carrosel-tittle{
+            width: 100%;
+        }
+    
+        .container-swiper{
+            @include center (column, center);
+            
+            .swiper{
+                width: 65vw;
+
+                .swiper-slide img{
+                    display: flex;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    }
+            
+                    .swiper-button-prev, .swiper-button-next{
+                        display: block;
+                        top:60%;
+                        color:$--cor-LetraDestaque;
+            
+                    }
+            
+                    .swiper-pagination{
+                        position: initial;
+                        margin: 1rem 0;
+                    }
+                }
+                .card{
+                    width: 50vw;
+                    margin:1rem 0 2rem 0;
+                
+                    .card-description{
+                        @include center(row, space-between);
+    
+                
+                        .description{
+                            @include center(column, normal);
+                            align-items: normal;
+                           
+                            
+                            
+                            .description-tittle{
+                                @include font(1rem, 700);
+                                text-align: start;
+                                margin-bottom: 1.2rem;
+                                color: $--cor-LetraDestaque;
+                            }
+                            
+                            .container-text-card{
+                                @include center(column,center);
+                           
+                                .category{
+                                    @include font(1.2rem, 700);
+                                    text-align: center;
+                                    color: $--corblue;
+                                }
+                                
+                                .description-text{
+                                    @include font(1rem, 500);
+                                    padding: 1rem 2rem 1rem 0;
+                                }
+                            }
+                        }
+                        
+                        .card-img{
+                            margin: 0.2rem 0;
+                            width: 30rem;
+                            height: auto;
+    
+                        }
+                
+                    }
+                    .card-btn{
+                        @include center(row, space-between);
+    
+                        .buttons{
+                            @include center(row, space-between);
+    
+                            #loved{
+                                display: none;
+                            }
+    
+                            #loved2{
+                                display: none;
+                            }
+    
+                            .btn-item-loved:checked+ .heart .loved{
+                                display: none;
+                                
+                            }
+                            .btn-item-loved:checked+ .heart .noloved{
+                                display: flex;
+                            
+                            }
+                            .btn-item-loved2:checked+ .heart .loved2{
+                                display: none;
+                            
+                            }
+                            .btn-item-loved2:checked+ .heart .noloved2{
+                                display: flex;
+                         
+                            }
+    
+                            .loved{
+                                display: block;
+                            }
+                            
+                            .noloved{
+                              display: none;
+                            }
+    
+                             .loved2{
+                             display: block;
+                            }
+                            
+                            .noloved2{
+                              display: none;
+                            }
+    
+    
+                            .heart{
+                                cursor: pointer;
+                            }
+                        
+                        
+                            .btn-item{
+                                display: inline;
+                                cursor: pointer;
+                            }
+                            
+                        }
+                            
+                        .btn-ancora{
+                            @include font(1.2rem, 500);
+                            @include center(row, center);
+                            background-color: $--cor-LetraDestaque;
+                            padding: 0.8rem 1rem;
+                            margin: 1rem 0 0 0;
+                            color: $--cor-branco;
+                           
+                        }
+                    }
+                } 
+            }
+    }   }
+    
+    i{
+        font-size: 2rem;
+    }
+
+@media screen and (min-width:900px){
+
+    
+.carrosel-card{
+    
+
+    .container-swiper{
+        @include center(row,center);
+        width: 90vw;
+        margin: 0 20vw 1rem 20vw;
+    
+        .swiper{
+            width: 40%;
+            margin: 1rem 2rem 3rem 0;
+        }
+            .card{
+                width: 35%;
+
+                .card-description{
+                    @include center(row, space-between);
+
+            
+                    .description{
+                        @include center(column, normal);
+            
+                        .description-tittle{
+                            @include font(1rem, 700);
+                        }
+
+                        .container-text-card{
+
+                        .category{
+                            @include font(1.2rem, 700);
+                        }
+                        
+                        .description-text{
+                            @include font(1rem, 500);
+                        }
+                        }
+                    }
+                    
+                    .card-img{
+                        margin: 5px 5px 5px 5px;
+                        width: 400px;
+                        height: auto;
+
+                    }
+            
+                }
+                .card-btn{
+                    @include center(row, space-between);
+
+                    .buttons{
+                        @include center(row, space-between);
+
+                        .btn-item{
+                            display: inline;
+                            cursor: pointer;
+                        }
+                        
+                    }
+                    
+                    .btn-ancora{
+                        padding: 0.5rem 0.5rem;
+                        color: $--cor-branco;
+                            
+                    }
+                }
+            }
+        }
+}
+
+}

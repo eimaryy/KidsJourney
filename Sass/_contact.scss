@@ -1,0 +1,60 @@
+@import "default";
+@import "variables";
+
+.contact{
+    background-color: $--cor-branco;
+    padding: 3rem;
+
+    .contact-tittle{
+        color:$--corblue;
+        @include font(2rem, 500);
+
+    }
+    .contact-text{
+        color:$--cor-cinzento;
+        @include font(1.4rem, 400);
+        margin: 2rem 0 2rem 0;
+
+    }
+    .contact-email{
+        padding: 1rem;
+        border: 1px solid $--corblue;
+        border-radius: 2.4rem;
+        width: 98%;
+        color: $--corblue;
+
+        &::placeholder{
+            font-family: $--fonte-principal;
+            color: $--corblue;
+        }
+    }
+
+}
+
+@media screen and (min-width:600px){
+    .contact{
+        padding: 3rem;
+        @include center(column, center);
+    
+        .contact-email{
+            width: 70%;
+    
+        }
+    
+    }
+
+}
+
+@media screen and (min-width:900px){
+    .contact{
+        padding: 3rem;
+        @include center(column, center);
+    
+        .contact-email{
+            width: 50%;
+    
+        }
+    
+    }
+
+}

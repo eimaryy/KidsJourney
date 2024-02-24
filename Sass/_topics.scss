@@ -1,0 +1,56 @@
+@import "variables";
+@import "default";
+
+.topics{
+    @include center(column, center);
+    background: $--cor-fundo;
+    color: $--cor-branco;
+    gap: 1rem;
+    padding: 2rem;
+    
+    .topics-tittle{
+        @include font(1.7rem,400);
+        margin:1rem;
+    }
+    .topics-menu{
+        @include center(row, center);
+        flex-wrap: wrap;
+        gap:1rem;
+        margin: 0 2rem 1rem 3rem;
+        
+        .menu-item{
+            background-color: $--cor-LetraDestaque;
+            padding: 1rem 2rem;
+            cursor: pointer;
+            @include font(1.3rem, 700);
+            color:$--cor-branco;
+        }
+
+    
+    }
+
+}
+
+@media screen and (min-width:600px){
+   
+     .topics-tittle{
+        @include font(2rem,400);
+
+    }
+}
+
+@media screen and (min-width:900px){
+    .topics{
+        padding: 1rem 20vw;
+        
+        .menu-item{
+            transition: 0.5s all;
+          
+            &:hover{
+              color:$--corblue;
+              background-color: $--cor-branco;
+              border: solid 1px $--cor-fundo;
+           }
+        }
+    }
+}
