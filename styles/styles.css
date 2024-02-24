@@ -353,9 +353,6 @@ a {
   border-radius: 2%;
   object-fit: cover;
 }
-.carrosel-card .container-swiper .swiper .swiper-button-prev, .carrosel-card .container-swiper .swiper .swiper-button-next {
-  display: none;
-}
 .carrosel-card .container-swiper .swiper .swiper-pagination {
   position: initial;
   margin: 1rem 0;
@@ -522,11 +519,6 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-  .carrosel-card .container-swiper .swiper .swiper-button-prev, .carrosel-card .container-swiper .swiper .swiper-button-next {
-    display: block;
-    top: 60%;
-    color: rgb(197, 94, 25);
   }
   .carrosel-card .container-swiper .swiper .swiper-pagination {
     position: initial;
