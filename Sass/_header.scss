@@ -212,9 +212,9 @@ i{
         nav{
             
             .icons{
-            
                 @include center(row, center);
                 @include font(1rem, 400);
+                margin: 0 1rem 0 0;
 
                     a{
                         @include center(row, center);

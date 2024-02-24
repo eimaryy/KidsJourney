@@ -212,6 +212,7 @@ i {
     font-family: "roboto", sans-serif;
     font-size: 1rem;
     font-weight: 400;
+    margin: 0 1rem 0 0;
   }
   header nav .icons a {
     display: flex;
