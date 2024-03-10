@@ -10,7 +10,7 @@
     
     .banner-tittle{
 
-        @include font(1.8rem,700);
+        @include font(2rem,700);
     }
 
     .banner-text{
@@ -46,7 +46,7 @@
         
     
         .banner-text{
-            @include font(1.2rem,400);
+            @include font(1.4rem,400);
            
         }
         
@@ -54,7 +54,7 @@
             width: 60%;
         
             &::placeholder{
-                @include font(1rem, 400);
+                @include font(1.2rem, 400);
             }
         }
         
@@ -71,7 +71,7 @@
             width: 45%;
         
             &::placeholder{
-                @include font(1.2rem, 400);
+                @include font(1.4rem, 400);
                 background-position: 2.5rem;
             }
         }

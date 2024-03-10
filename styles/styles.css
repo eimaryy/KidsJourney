@@ -137,7 +137,7 @@ i {
     display: block;
     color: rgb(20, 36, 80);
     font-family: "roboto", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   header nav .container-tittle-logo .tittle span {
     color: rgb(197, 94, 25);
@@ -171,7 +171,7 @@ i {
     background-color: rgb(255, 255, 255);
     color: rgb(20, 36, 80);
     font-family: "roboto", sans-serif;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 400;
     cursor: pointer;
   }
@@ -185,7 +185,7 @@ i {
   header nav .options .options-itens {
     padding: 0.5rem 1rem;
     font-family: "roboto", sans-serif;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 500;
     color: rgb(20, 36, 80);
     display: inline-block;
@@ -210,7 +210,7 @@ i {
     align-items: center;
     flex-direction: row;
     font-family: "roboto", sans-serif;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 400;
     margin: 0 1rem 0 0;
   }
@@ -224,6 +224,7 @@ i {
     font-weight: 500;
     color: rgb(20, 36, 80);
     margin: 0 0.5rem;
+    font-size: 1.4rem;
   }
   header nav .icons a span {
     display: block;
@@ -232,7 +233,7 @@ i {
     background-color: #ebecee;
   }
   header i {
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 }
 * {
@@ -263,7 +264,7 @@ a {
 }
 .banner .banner-tittle {
   font-family: "roboto", sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 .banner .banner-text {
@@ -295,7 +296,7 @@ a {
 @media screen and (min-width: 600px) {
   .banner .banner-text {
     font-family: "roboto", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 400;
   }
   .banner .banner-search {
@@ -303,7 +304,7 @@ a {
   }
   .banner .banner-search::placeholder {
     font-family: "roboto", sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
   }
 }
@@ -314,7 +315,7 @@ a {
   }
   .banner .banner-search::placeholder {
     font-family: "roboto", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 400;
     background-position: 2.5rem;
   }
@@ -341,9 +342,9 @@ a {
   text-align: center;
   text-transform: uppercase;
   font-family: "roboto", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 700;
-  padding: 1rem 0 0.5rem 0;
+  padding: 1rem 1.2rem 0.5rem 1.2rem;
 }
 .carrosel-card .container-swiper .swiper {
   margin: 1rem;
@@ -382,7 +383,7 @@ a {
 }
 .carrosel-card .container-swiper .card .card-description .description .description-tittle {
   font-family: "roboto", sans-serif;
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 700;
   text-align: start;
   margin-bottom: 1.2rem;
@@ -396,7 +397,7 @@ a {
 }
 .carrosel-card .container-swiper .card .card-description .description .container-text-card .category {
   font-family: "roboto", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   text-align: center;
   color: rgb(20, 36, 80);
@@ -406,7 +407,7 @@ a {
 }
 .carrosel-card .container-swiper .card .card-description .description .container-text-card .description-text {
   font-family: "roboto", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   padding: 1rem 0 1rem 0;
 }
@@ -435,6 +436,9 @@ a {
 }
 .carrosel-card .container-swiper .card .card-btn .buttons #buyit2 {
   display: block;
+}
+.carrosel-card .container-swiper .card .card-btn .buttons i {
+  font-size: 2.5rem;
 }
 .carrosel-card .container-swiper .card .card-btn .buttons .btn-item-loved:checked + .heart .loved {
   display: none;
@@ -480,12 +484,12 @@ a {
   cursor: pointer;
 }
 .carrosel-card .container-swiper .card .card-btn .buttons .btn-item i {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: rgb(78, 78, 78);
 }
 .carrosel-card .container-swiper .card .card-btn .btn-ancora {
   font-family: "roboto", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 500;
   display: flex;
   justify-content: center;
@@ -544,9 +548,6 @@ a {
     align-items: normal;
   }
   .carrosel-card .container-swiper .card .card-description .description .description-tittle {
-    font-family: "roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
     text-align: start;
     margin-bottom: 1.2rem;
     color: rgb(197, 94, 25);
@@ -558,16 +559,10 @@ a {
     flex-direction: column;
   }
   .carrosel-card .container-swiper .card .card-description .description .container-text-card .category {
-    font-family: "roboto", sans-serif;
-    font-size: 1.2rem;
-    font-weight: 700;
     text-align: center;
     color: rgb(20, 36, 80);
   }
   .carrosel-card .container-swiper .card .card-description .description .container-text-card .description-text {
-    font-family: "roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
     padding: 1rem 2rem 1rem 0;
   }
   .carrosel-card .container-swiper .card .card-description .card-img {
@@ -625,9 +620,6 @@ a {
     cursor: pointer;
   }
   .carrosel-card .container-swiper .card .card-btn .btn-ancora {
-    font-family: "roboto", sans-serif;
-    font-size: 1.2rem;
-    font-weight: 500;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -669,21 +661,6 @@ i {
     justify-content: normal;
     align-items: center;
     flex-direction: column;
-  }
-  .carrosel-card .container-swiper .card .card-description .description .description-tittle {
-    font-family: "roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-  }
-  .carrosel-card .container-swiper .card .card-description .description .container-text-card .category {
-    font-family: "roboto", sans-serif;
-    font-size: 1.2rem;
-    font-weight: 700;
-  }
-  .carrosel-card .container-swiper .card .card-description .description .container-text-card .description-text {
-    font-family: "roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
   }
   .carrosel-card .container-swiper .card .card-description .card-img {
     margin: 5px 5px 5px 5px;
@@ -739,7 +716,7 @@ a {
 }
 .topics .topics-tittle {
   font-family: "roboto", sans-serif;
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 400;
   margin: 1rem;
 }
@@ -757,7 +734,7 @@ a {
   padding: 1rem 2rem;
   cursor: pointer;
   font-family: "roboto", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 700;
   color: rgb(255, 255, 255);
 }
@@ -811,7 +788,7 @@ a {
 .contact .contact-text {
   color: rgb(104, 104, 104);
   font-family: "roboto", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 400;
   margin: 2rem 0 2rem 0;
 }

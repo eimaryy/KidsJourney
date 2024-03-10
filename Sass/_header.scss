@@ -125,7 +125,7 @@ i{
 
                     font: {
                         family: $--fonte-principal;
-                        size: 1.2rem;
+                        size: 1.5rem;
                     }
                     span{
                         color: $--cor-LetraDestaque
@@ -161,7 +161,7 @@ i{
                     .item{   
                         @include list-base;
                         color: $--corblue;
-                        @include font(1rem, 400);
+                        @include font(1.4rem, 400);
                         cursor: pointer;
                         
                         &:hover{
@@ -179,7 +179,7 @@ i{
                 
                 .options-itens{
                     padding: 0.5rem 1rem;
-                    @include font(1rem, 500);
+                    @include font(1.4rem, 500);
                     color: $--corblue;
                     display: inline-block;
 
@@ -213,7 +213,7 @@ i{
             
             .icons{
                 @include center(row, center);
-                @include font(1rem, 400);
+                @include font(1.4rem, 400);
                 margin: 0 1rem 0 0;
 
                     a{
@@ -221,6 +221,7 @@ i{
                         @include font(1rem, 500);
                         color: $--corblue;
                         margin: 0 0.5rem;
+                        font-size:1.4rem;
 
                         span{
                             display: block;
@@ -239,7 +240,7 @@ i{
         }
 
        i{
-         font-size: 1.2rem;
+         font-size: 2rem;
        }
     }
 

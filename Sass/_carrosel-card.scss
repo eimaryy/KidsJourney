@@ -8,8 +8,8 @@
         background-color: $--cor-branco;
         text-align: center;
         text-transform: uppercase;
-        @include font(1.2rem, 700);
-        padding: 1rem 0 0.5rem 0;
+        @include font(1.4rem, 700);
+        padding: 1rem 1.2rem 0.5rem 1.2rem;
     }
 
     .container-swiper{
@@ -50,7 +50,7 @@
                         
                         
                         .description-tittle{
-                            @include font(1rem, 700);
+                            @include font(1.4rem, 700);
                             text-align: start;
                             margin-bottom: 1.2rem;
                             color: $--cor-LetraDestaque;
@@ -60,7 +60,7 @@
                             @include center(column,center);
                        
                             .category{
-                                @include font(1.2rem, 700);
+                                @include font(1.5rem, 700);
                                 text-align: center;
                                 color: $--corblue;
                                 span{
@@ -69,7 +69,7 @@
                             }
                             
                             .description-text{
-                                @include font(1rem, 500);
+                                @include font(1.2rem, 500);
                                 padding: 1rem 0 1rem 0;
 
                             }
@@ -100,6 +100,10 @@
                         }
                         #buyit2{
                             display: block;
+                        }
+
+                        i{
+                            font-size: 2.5rem;
                         }
 
                         .btn-item-loved:checked+ .heart .loved{
@@ -158,7 +162,7 @@
                             display: inline;
                             cursor: pointer;
                             i{
-                                font-size: 2rem;
+                                font-size: 2.5rem;
                                 color: $--corcinza;
                             }
                         }
@@ -166,7 +170,7 @@
                     }
 
                     .btn-ancora{
-                        @include font(1.2rem, 500);
+                        @include font(1.4rem, 500);
                         @include center(row, center);
                         background-color: $--cor-LetraDestaque;
                         padding: 0.8rem 1rem;
@@ -220,7 +224,6 @@
                             
                             
                             .description-tittle{
-                                @include font(1rem, 700);
                                 text-align: start;
                                 margin-bottom: 1.2rem;
                                 color: $--cor-LetraDestaque;
@@ -230,13 +233,11 @@
                                 @include center(column,center);
                            
                                 .category{
-                                    @include font(1.2rem, 700);
                                     text-align: center;
                                     color: $--corblue;
                                 }
                                 
                                 .description-text{
-                                    @include font(1rem, 500);
                                     padding: 1rem 2rem 1rem 0;
                                 }
                             }
@@ -311,7 +312,6 @@
                         }
                             
                         .btn-ancora{
-                            @include font(1.2rem, 500);
                             @include center(row, center);
                             background-color: $--cor-LetraDestaque;
                             padding: 0.8rem 1rem;
@@ -353,20 +353,6 @@
                     .description{
                         @include center(column, normal);
             
-                        .description-tittle{
-                            @include font(1rem, 700);
-                        }
-
-                        .container-text-card{
-
-                        .category{
-                            @include font(1.2rem, 700);
-                        }
-                        
-                        .description-text{
-                            @include font(1rem, 500);
-                        }
-                        }
                     }
                     
                     .card-img{

@@ -9,7 +9,7 @@
     padding: 2rem;
     
     .topics-tittle{
-        @include font(1.7rem,400);
+        @include font(2rem,400);
         margin:1rem;
     }
     .topics-menu{
@@ -22,7 +22,7 @@
             background-color: $--cor-LetraDestaque;
             padding: 1rem 2rem;
             cursor: pointer;
-            @include font(1.3rem, 700);
+            @include font(1.4rem, 700);
             color:$--cor-branco;
         }
 
