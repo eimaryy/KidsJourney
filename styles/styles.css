@@ -44,10 +44,10 @@ header nav {
   flex-direction: row;
 }
 header nav .container-nav .container-btn:checked ~ .container-label > .sandwich-menu {
-  background: radial-gradient(circle, rgb(41, 53, 65) 22%, rgb(33, 44, 61) 55%);
+  background: radial-gradient(circle, rgb(53, 66, 89) 60%, rgb(72, 88, 112) 83%);
 }
 header nav .container-nav .container-btn:checked ~ .container-label {
-  background: radial-gradient(circle, rgb(41, 53, 65) 22%, rgb(33, 44, 61) 55%);
+  background: radial-gradient(circle, rgb(53, 66, 89) 60%, rgb(72, 88, 112) 83%);
 }
 header nav .container-nav .container-btn:checked ~ .container-label > .sandwich-menu > i {
   color: rgb(255, 255, 255);
@@ -73,7 +73,7 @@ header nav .container-nav .menu-list .list-tittle {
   font-family: "roboto", sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
-  color: rgb(197, 94, 25);
+  color: rgb(211, 92, 13);
 }
 header nav .container-nav .menu-list .item {
   padding: 1rem;
@@ -82,7 +82,7 @@ header nav .container-nav .menu-list .item {
   font-size: 1.2rem;
   font-weight: 400;
   text-transform: uppercase;
-  color: rgb(20, 36, 80);
+  color: #354259;
   cursor: pointer;
 }
 header nav .container-nav .menu-list .item:hover {
@@ -92,7 +92,7 @@ header nav .container-nav .container-btn:checked ~ .menu-list {
   display: block;
 }
 header nav .container-tittle-logo i {
-  color: rgb(197, 94, 25);
+  color: rgb(211, 92, 13);
 }
 header nav .container-tittle-logo .tittle {
   display: none;
@@ -118,12 +118,15 @@ header nav ul span {
 }
 
 i {
-  color: rgb(20, 36, 80);
+  color: #354259;
   font-size: 1.5rem;
   padding: 0.5rem 0.5rem;
 }
 
 @media screen and (min-width: 600px) {
+  header {
+    padding: 0 2rem 0 0;
+  }
   header nav .container-nav {
     display: none;
   }
@@ -135,12 +138,12 @@ i {
   }
   header nav .container-tittle-logo .tittle {
     display: block;
-    color: rgb(20, 36, 80);
+    color: #354259;
     font-family: "roboto", sans-serif;
     font-size: 1.5rem;
   }
   header nav .container-tittle-logo .tittle span {
-    color: rgb(197, 94, 25);
+    color: rgb(211, 92, 13);
   }
   header nav .options {
     display: flex;
@@ -154,7 +157,7 @@ i {
     cursor: pointer;
   }
   header nav .options .option-btn:checked ~ .options-label > .options-itens {
-    background: radial-gradient(circle, rgb(41, 53, 65) 22%, rgb(33, 44, 61) 55%);
+    background: radial-gradient(circle, rgb(53, 66, 89) 60%, rgb(72, 88, 112) 83%);
     color: rgb(255, 255, 255);
   }
   header nav .options #options-menu {
@@ -169,7 +172,7 @@ i {
   header nav .options .menu-list .item {
     padding: 1rem;
     background-color: rgb(255, 255, 255);
-    color: rgb(20, 36, 80);
+    color: #354259;
     font-family: "roboto", sans-serif;
     font-size: 1.4rem;
     font-weight: 400;
@@ -177,7 +180,7 @@ i {
   }
   header nav .options .menu-list .item:hover {
     color: rgb(255, 255, 255);
-    background: radial-gradient(circle, rgb(41, 53, 65) 22%, rgb(33, 44, 61) 55%);
+    background: radial-gradient(circle, rgb(53, 66, 89) 60%, rgb(72, 88, 112) 83%);
   }
   header nav .options .option-btn:checked ~ .menu-list {
     display: block;
@@ -187,14 +190,14 @@ i {
     font-family: "roboto", sans-serif;
     font-size: 1.4rem;
     font-weight: 500;
-    color: rgb(20, 36, 80);
+    color: #354259;
     display: inline-block;
   }
   header nav .options .options-itens:hover {
     background-color: #ebecee;
   }
   header nav .options .options-itens .item-link {
-    color: rgb(20, 36, 80);
+    color: #354259;
   }
   header nav ul {
     display: flex;
@@ -222,7 +225,7 @@ i {
     font-family: "roboto", sans-serif;
     font-size: 1rem;
     font-weight: 500;
-    color: rgb(20, 36, 80);
+    color: #354259;
     margin: 0 0.5rem;
     font-size: 1.4rem;
   }
@@ -253,7 +256,7 @@ a {
 }
 
 .banner {
-  background: radial-gradient(circle, rgb(41, 53, 65) 22%, rgb(33, 44, 61) 55%);
+  background: radial-gradient(circle, rgb(53, 66, 89) 60%, rgb(72, 88, 112) 83%);
   height: 18rem;
   display: flex;
   justify-content: center;
@@ -276,7 +279,7 @@ a {
 }
 .banner .banner-search {
   background-color: transparent;
-  border: 2px solid radial-gradient(circle, rgb(41, 53, 65) 22%, rgb(33, 44, 61) 55%);
+  border: 2px solid radial-gradient(circle, rgb(53, 66, 89) 60%, rgb(72, 88, 112) 83%);
   color: rgb(255, 255, 255);
   border-radius: 24px;
   padding: 0.5rem;
@@ -337,7 +340,7 @@ a {
 }
 
 .carrosel-card .carrosel-tittle {
-  color: rgb(197, 94, 25);
+  color: rgb(211, 92, 13);
   background-color: rgb(255, 255, 255);
   text-align: center;
   text-transform: uppercase;
@@ -387,7 +390,7 @@ a {
   font-weight: 700;
   text-align: start;
   margin-bottom: 1.2rem;
-  color: rgb(197, 94, 25);
+  color: rgb(211, 92, 13);
 }
 .carrosel-card .container-swiper .card .card-description .description .container-text-card {
   display: flex;
@@ -400,10 +403,10 @@ a {
   font-size: 1.5rem;
   font-weight: 700;
   text-align: center;
-  color: rgb(20, 36, 80);
+  color: #354259;
 }
 .carrosel-card .container-swiper .card .card-description .description .container-text-card .category span {
-  color: rgb(197, 94, 25);
+  color: rgb(211, 92, 13);
 }
 .carrosel-card .container-swiper .card .card-description .description .container-text-card .description-text {
   font-family: "roboto", sans-serif;
@@ -456,25 +459,25 @@ a {
   display: block;
 }
 .carrosel-card .container-swiper .card .card-btn .buttons .loved i {
-  color: rgb(78, 78, 78);
+  color: #776B5D;
 }
 .carrosel-card .container-swiper .card .card-btn .buttons .noloved {
   display: none;
 }
 .carrosel-card .container-swiper .card .card-btn .buttons .noloved i {
-  color: rgb(219, 0, 0);
+  color: #A73121;
 }
 .carrosel-card .container-swiper .card .card-btn .buttons .loved2 {
   display: block;
 }
 .carrosel-card .container-swiper .card .card-btn .buttons .loved2 i {
-  color: rgb(78, 78, 78);
+  color: #776B5D;
 }
 .carrosel-card .container-swiper .card .card-btn .buttons .noloved2 {
   display: none;
 }
 .carrosel-card .container-swiper .card .card-btn .buttons .noloved2 i {
-  color: rgb(219, 0, 0);
+  color: #A73121;
 }
 .carrosel-card .container-swiper .card .card-btn .buttons .heart {
   cursor: pointer;
@@ -485,7 +488,7 @@ a {
 }
 .carrosel-card .container-swiper .card .card-btn .buttons .btn-item i {
   font-size: 2.5rem;
-  color: rgb(78, 78, 78);
+  color: #776B5D;
 }
 .carrosel-card .container-swiper .card .card-btn .btn-ancora {
   font-family: "roboto", sans-serif;
@@ -495,7 +498,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  background-color: rgb(197, 94, 25);
+  background-color: rgb(211, 92, 13);
   padding: 0.8rem 1rem;
   margin: 1rem 0 0 0;
   color: rgb(255, 255, 255);
@@ -550,7 +553,7 @@ a {
   .carrosel-card .container-swiper .card .card-description .description .description-tittle {
     text-align: start;
     margin-bottom: 1.2rem;
-    color: rgb(197, 94, 25);
+    color: rgb(211, 92, 13);
   }
   .carrosel-card .container-swiper .card .card-description .description .container-text-card {
     display: flex;
@@ -560,7 +563,7 @@ a {
   }
   .carrosel-card .container-swiper .card .card-description .description .container-text-card .category {
     text-align: center;
-    color: rgb(20, 36, 80);
+    color: #354259;
   }
   .carrosel-card .container-swiper .card .card-description .description .container-text-card .description-text {
     padding: 1rem 2rem 1rem 0;
@@ -624,10 +627,16 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background-color: rgb(197, 94, 25);
+    background-color: rgb(211, 92, 13);
     padding: 0.8rem 1rem;
     margin: 1rem 0 0 0;
     color: rgb(255, 255, 255);
+    transition: 0.5s all;
+  }
+  .carrosel-card .container-swiper .card .card-btn .btn-ancora:hover {
+    color: rgb(255, 255, 255);
+    background-color: #65647C;
+    border: solid 1px radial-gradient(circle, rgb(53, 66, 89) 60%, rgb(72, 88, 112) 83%);
   }
 }
 i {
@@ -709,7 +718,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: radial-gradient(circle, rgb(41, 53, 65) 22%, rgb(33, 44, 61) 55%);
+  background: radial-gradient(circle, rgb(53, 66, 89) 60%, rgb(72, 88, 112) 83%);
   color: rgb(255, 255, 255);
   gap: 1rem;
   padding: 2rem;
@@ -730,7 +739,7 @@ a {
   margin: 0 2rem 1rem 3rem;
 }
 .topics .topics-menu .menu-item {
-  background-color: rgb(197, 94, 25);
+  background-color: rgb(211, 92, 13);
   padding: 1rem 2rem;
   cursor: pointer;
   font-family: "roboto", sans-serif;
@@ -754,9 +763,9 @@ a {
     transition: 0.5s all;
   }
   .topics .menu-item:hover {
-    color: rgb(20, 36, 80);
+    color: #354259;
     background-color: rgb(255, 255, 255);
-    border: solid 1px radial-gradient(circle, rgb(41, 53, 65) 22%, rgb(33, 44, 61) 55%);
+    border: solid 1px radial-gradient(circle, rgb(53, 66, 89) 60%, rgb(72, 88, 112) 83%);
   }
 }
 * {
@@ -780,7 +789,7 @@ a {
   padding: 3rem;
 }
 .contact .contact-tittle {
-  color: rgb(20, 36, 80);
+  color: #354259;
   font-family: "roboto", sans-serif;
   font-size: 2rem;
   font-weight: 500;
@@ -794,14 +803,14 @@ a {
 }
 .contact .contact-email {
   padding: 1rem;
-  border: 1px solid rgb(20, 36, 80);
+  border: 1px solid #354259;
   border-radius: 2.4rem;
   width: 98%;
-  color: rgb(20, 36, 80);
+  color: #354259;
 }
 .contact .contact-email::placeholder {
   font-family: "roboto", sans-serif;
-  color: rgb(20, 36, 80);
+  color: #354259;
 }
 
 @media screen and (min-width: 600px) {
@@ -852,7 +861,7 @@ footer .footer-tittle {
   font-family: "roboto", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
-  color: rgb(50, 42, 66);
+  color: #354259;
 }
 
 body {
