@@ -44,10 +44,10 @@ header nav {
   flex-direction: row;
 }
 header nav .container-nav .container-btn:checked ~ .container-label > .sandwich-menu {
-  background: #7393ad;
+  background: #66839b;
 }
 header nav .container-nav .container-btn:checked ~ .container-label {
-  background: #7393ad;
+  background: #66839b;
 }
 header nav .container-nav .container-btn:checked ~ .container-label > .sandwich-menu > i {
   color: rgb(255, 255, 255);
@@ -157,7 +157,7 @@ i {
     cursor: pointer;
   }
   header nav .options .option-btn:checked ~ .options-label > .options-itens {
-    background: #7393ad;
+    background: #66839b;
     color: rgb(255, 255, 255);
   }
   header nav .options #options-menu {
@@ -180,7 +180,7 @@ i {
   }
   header nav .options .menu-list .item:hover {
     color: rgb(255, 255, 255);
-    background: #7393ad;
+    background: #66839b;
   }
   header nav .options .option-btn:checked ~ .menu-list {
     display: block;
@@ -256,7 +256,7 @@ a {
 }
 
 .banner {
-  background: #7393ad;
+  background: #66839b;
   height: 18rem;
   display: flex;
   justify-content: center;
@@ -465,7 +465,7 @@ a {
   display: none;
 }
 .carrosel-card .container-swiper .card .card-btn .buttons .noloved i {
-  color: #A73121;
+  color: #af301f;
 }
 .carrosel-card .container-swiper .card .card-btn .buttons .loved2 {
   display: block;
@@ -477,7 +477,7 @@ a {
   display: none;
 }
 .carrosel-card .container-swiper .card .card-btn .buttons .noloved2 i {
-  color: #A73121;
+  color: #af301f;
 }
 .carrosel-card .container-swiper .card .card-btn .buttons .heart {
   cursor: pointer;
@@ -636,7 +636,7 @@ a {
   .carrosel-card .container-swiper .card .card-btn .btn-ancora:hover {
     color: rgb(255, 255, 255);
     background-color: #65647C;
-    border: solid 1px #7393ad;
+    border: solid 1px #66839b;
   }
 }
 i {
@@ -718,7 +718,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #7393ad;
+  background: #66839b;
   color: rgb(255, 255, 255);
   gap: 1rem;
   padding: 2rem;
@@ -765,7 +765,7 @@ a {
   .topics .menu-item:hover {
     color: #354259;
     background-color: rgb(255, 255, 255);
-    border: solid 1px #7393ad;
+    border: solid 1px #66839b;
   }
 }
 * {
