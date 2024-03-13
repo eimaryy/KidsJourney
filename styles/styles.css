@@ -44,10 +44,10 @@ header nav {
   flex-direction: row;
 }
 header nav .container-nav .container-btn:checked ~ .container-label > .sandwich-menu {
-  background: radial-gradient(circle, rgb(53, 66, 89) 60%, rgb(72, 88, 112) 83%);
+  background: #8da6bb;
 }
 header nav .container-nav .container-btn:checked ~ .container-label {
-  background: radial-gradient(circle, rgb(53, 66, 89) 60%, rgb(72, 88, 112) 83%);
+  background: #8da6bb;
 }
 header nav .container-nav .container-btn:checked ~ .container-label > .sandwich-menu > i {
   color: rgb(255, 255, 255);
@@ -157,7 +157,7 @@ i {
     cursor: pointer;
   }
   header nav .options .option-btn:checked ~ .options-label > .options-itens {
-    background: radial-gradient(circle, rgb(53, 66, 89) 60%, rgb(72, 88, 112) 83%);
+    background: #8da6bb;
     color: rgb(255, 255, 255);
   }
   header nav .options #options-menu {
@@ -180,7 +180,7 @@ i {
   }
   header nav .options .menu-list .item:hover {
     color: rgb(255, 255, 255);
-    background: radial-gradient(circle, rgb(53, 66, 89) 60%, rgb(72, 88, 112) 83%);
+    background: #8da6bb;
   }
   header nav .options .option-btn:checked ~ .menu-list {
     display: block;
@@ -256,7 +256,7 @@ a {
 }
 
 .banner {
-  background: radial-gradient(circle, rgb(53, 66, 89) 60%, rgb(72, 88, 112) 83%);
+  background: #8da6bb;
   height: 18rem;
   display: flex;
   justify-content: center;
@@ -279,7 +279,7 @@ a {
 }
 .banner .banner-search {
   background-color: transparent;
-  border: 2px solid radial-gradient(circle, rgb(53, 66, 89) 60%, rgb(72, 88, 112) 83%);
+  border: 2px solid #ebecee;
   color: rgb(255, 255, 255);
   border-radius: 24px;
   padding: 0.5rem;
@@ -636,7 +636,7 @@ a {
   .carrosel-card .container-swiper .card .card-btn .btn-ancora:hover {
     color: rgb(255, 255, 255);
     background-color: #65647C;
-    border: solid 1px radial-gradient(circle, rgb(53, 66, 89) 60%, rgb(72, 88, 112) 83%);
+    border: solid 1px #8da6bb;
   }
 }
 i {
@@ -718,7 +718,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: radial-gradient(circle, rgb(53, 66, 89) 60%, rgb(72, 88, 112) 83%);
+  background: #8da6bb;
   color: rgb(255, 255, 255);
   gap: 1rem;
   padding: 2rem;
@@ -757,7 +757,7 @@ a {
 }
 @media screen and (min-width: 900px) {
   .topics {
-    padding: 1rem 20vw;
+    padding: 1rem 15vw;
   }
   .topics .menu-item {
     transition: 0.5s all;
@@ -765,7 +765,7 @@ a {
   .topics .menu-item:hover {
     color: #354259;
     background-color: rgb(255, 255, 255);
-    border: solid 1px radial-gradient(circle, rgb(53, 66, 89) 60%, rgb(72, 88, 112) 83%);
+    border: solid 1px #8da6bb;
   }
 }
 * {
